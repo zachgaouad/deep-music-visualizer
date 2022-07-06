@@ -399,6 +399,10 @@ clip = mpy.ImageSequenceClip(frames, fps=22050/frame_length)
 clip = clip.set_audio(aud)
 clip.write_videofile(outname,audio_codec='aac')
 
+git clone https://github.com/msieg/deep-music-visualizer.git
+cd deep-music-visualizer
+pip install -r requirements.txt
+
 
 
 
